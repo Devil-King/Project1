@@ -135,6 +135,7 @@ header {
 
 #nav li:hover {
     background: #ffffff;
+    
 }
 
 /* highlights current hovered list item and the parent list items when hovering over sub menues */
@@ -177,7 +178,32 @@ header {
     float: left;
 }  
 
-/* .text{
-    padding-left: 40px;
-    padding-right: 10px;
-} */
+ .space{
+   margin: 0 88px 0 0 !important;
+} 
+
+.space_h1{
+    margin: 0 0 0 88px !important;
+ } 
+
+ .button {
+    background-color: #fc6100;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.text h1 a{
+    text-decoration: none;
+    color: #a09e9e;
+    font-size: large;
+}
+.text h1 a:hover{
+    color: #000;
+}
